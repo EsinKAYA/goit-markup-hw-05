@@ -448,44 +448,51 @@ body {
 .footer-socials-link:focus{
   background-color: #31d0aa;
 }
-
-.modal{
+.modal-text{
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.modal-form{
   display: flex;
-  position: fixed;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
+  justify-content: space-between;
+  gap: 24px;
+}
+.modal-email{
+  width: 246px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  color:#ffffff;
+}
+.modal-button{
+  max-width: 165px;
+  height: 40px;
+  display: flex;
   justify-content: center;
   align-items: center;
-}
-.modal .overlay{
-  position: absolute;
-  top:0;
-  left:0;
-  right:0;  
-  bottom:0;
-  z-index: 1;
-  background-color: #2e2f42;
-  opacity:0.4;
-}
-.is-open{
-display: none;
-}
-.modal .modal-form{
-  position: relative;
-  width: 408px;
-  height: 500px;
-  z-index: 2;
-  background-color: #fcfcfc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
   border-radius: 4px;
-  overflow: hidden;
-  padding: 24px;
-  
-
 }
-.modal .modal-form .close{
-  display: flex;
-  justify-content: end;
-  
-}
+.modal-svg{
+  margin-left: 16px;
+  fill: white;
+  }
