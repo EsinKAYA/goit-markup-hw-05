@@ -462,7 +462,7 @@ body {
   gap: 24px;
 }
 .modal-email{
-  width: 246px;
+  width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -475,7 +475,7 @@ body {
   color:#ffffff;
 }
 .modal-button{
-  max-width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
