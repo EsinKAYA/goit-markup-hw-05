@@ -628,12 +628,18 @@ body {
   color: #8e8f99;
 }
 .privacy-span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
 }
-.privacy-svg {
+.win-send{
+  display: block;
   min-width: 169px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
@@ -645,4 +651,12 @@ body {
   cursor: pointer;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.privacy-input:checked + .privacy-span {
+  background-color: #4d5ae5;
+  border: none;
+  fill:#f4f4fd;
+}
+.privacy-link{
+  color:#4d5ae5;
 }
