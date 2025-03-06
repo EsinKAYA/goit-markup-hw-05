@@ -661,7 +661,7 @@ form .user-div:nth-child(4) {
 .privacy-input {
   display: block;
 }
-.privacy-input:checked  .privacy-span {
+ .privacy-input:checked + label .privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
